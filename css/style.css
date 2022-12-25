@@ -1,0 +1,77 @@
+.wrapper {
+  max-width: 1024px;
+  margin: 0;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav {
+  display: flex;
+  list-style-type: none;
+  padding-left: 0;
+  align-items: center;
+}
+.nav-item {
+  margin-left: 270px;
+}
+.nav-link {
+  color: rgb(250, 250, 250);
+  text-decoration: none;
+  font-size: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.nav-vit {
+  color: white;
+  -webkit-animation-duration: 3s;
+          animation-duration: 3s;
+  -webkit-animation-name: kirill;
+          animation-name: kirill;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  font-size: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration: none;
+}
+
+.page-neon {
+  display: flex;
+  align-items: center;
+  background: linear-gradient(45deg, rgb(0, 0, 0), rgb(94, 4, 155));
+}
+
+.page-vit {
+  display: block;
+  background: linear-gradient(-135deg, rgb(24, 1, 41), rgb(62, 3, 121));
+}
+
+.back {
+  background-color: rgb(0, 0, 0);
+}
+
+@-webkit-keyframes kirill {
+  from {
+    margin-left: 100px;
+  }
+  to {
+    margin-left: 100px;
+  }
+  50% {
+    margin-left: 110px;
+  }
+}
+
+@keyframes kirill {
+  from {
+    margin-left: 100px;
+  }
+  to {
+    margin-left: 100px;
+  }
+  50% {
+    margin-left: 110px;
+  }
+}/*# sourceMappingURL=style.css.map */
